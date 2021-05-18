@@ -75,3 +75,30 @@
 
 // let prom = Promise.resolve('HECHO!!! RESUELTO');
 // let prom2 = Promise.reject(new Error('HECHO!!! RECHAZADO'));
+
+
+// PROMISE AFTER PROMISE
+
+// var firstPromise = first();
+
+// var secondPromise = firstPromise.then(function (val) {
+//   return second(val);
+// });
+
+// secondPromise.then(console.log);
+
+
+// VALUES AND PROMISES
+
+
+// let promiseFirst = new Promise(function(resolve) {
+//     resolve('MANHATTAN');
+// });
+
+// const attachTitle = (val) => {
+//     return ("DR. " + val);
+// }
+
+// promiseFirst
+//     .then (attachTitle)
+//     .then (console.log);
