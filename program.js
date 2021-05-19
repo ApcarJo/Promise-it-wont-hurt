@@ -91,14 +91,14 @@
 // VALUES AND PROMISES
 
 
-// let promiseFirst = new Promise(function(resolve) {
-//     resolve('MANHATTAN');
-// });
+let promiseFirst = new Promise(function(resolve) {
+    resolve('MANHATTAN');
+});
 
-// const attachTitle = (val) => {
-//     return ("DR. " + val);
-// }
+const attachTitle = (val) => {
+    return ("DR. " + val);
+}
 
-// promiseFirst
-//     .then (attachTitle)
-//     .then (console.log);
+promiseFirst
+    .then (attachTitle)
+    .then (console.log);
